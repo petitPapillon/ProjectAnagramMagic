@@ -23,6 +23,7 @@ namespace domasno
         public void AddScores(string s)
         {
             lblText.Text = string.Format("{0,-15}{1,-15}{2,-15}", "Name", "Score", "Best Word\n");
+            lblText.Text += "\n";
             text = s;
             lblText.Text += text;
         }
